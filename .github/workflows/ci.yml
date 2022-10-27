@@ -39,6 +39,6 @@ jobs:
     
     - uses: azure/webapps-deploy@v2
       with:
-        app-name: 'webapp-lastrepo'
+        app-name: 'lastwebapp'
         publish-profile: ${{ secrets.azureWebAppPublishProfile }}
         images: 'gk13081987/lastrepo:${{ github.sha }}'
